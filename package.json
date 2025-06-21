@@ -1,0 +1,25 @@
+{
+  "name": "calhacks-ai-arena",
+  "version": "1.0.0",
+  "description": "An interactive AI battle arena where you don't play the character — you **coach** the AI.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/araikar08/calhacks-ai-arena.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/araikar08/calhacks-ai-arena/issues"
+  },
+  "homepage": "https://github.com/araikar08/calhacks-ai-arena#readme",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "groq-sdk": "^0.25.0",
+    "ws": "^8.18.2"
+  }
+}
