@@ -6,7 +6,7 @@
 
 ### ► Watch the Demo Video
 
-[![Neural Courier Demo](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID)
+[![Neural Courier Demo](https://youtu.be/RWS2lIp7c60/0.jpg)](https://youtu.be/RWS2lIp7c60)
 
 *(Click the image to watch the 2-minute demonstration)*
 
@@ -27,7 +27,7 @@ This project integrates a full stack of modern technologies to achieve real-time
 * **AI Brain (Groq):** The Groq platform serves the Llama 3 8b model at incredible speed, allowing us to get strategic decisions in under 400ms, which is essential for a real-time loop.
 * **Voice Output (say.js/Vapi):** The AI's "thoughts" are converted to speech, providing a multimodal user experience.
 
-![Architecture Diagram](URL_to_an_architecture_diagram_image_if_you_make_one.png)
+![Architecture Diagram](https://imgur.com/a/kBAOEG4)
 
 ### How to Run It
 
