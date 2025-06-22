@@ -1,7 +1,48 @@
-# 🤖 AI Agent Arena
+# Neural Courier: A Hybrid Architecture for Autonomous LLM Agents
 
-An interactive AI battle arena where you don't play the character — you **coach** the AI.
+**A solo project by Aryan Raikar for the Berkeley AI Hackathon 2025.**
 
-A submission for the **UC Berkeley AI Hackathon 2025**, this project explores a new paradigm of gaming and human-AI interaction. Instead of direct control, players provide high-level, natural language strategies (e.g., _"be aggressive, hunt for gems"_) to an autonomous agent. 
+---
 
-These agents, built on the **Fetch.ai** framework and powered by **large language models**, then interpret these commands and battle in a real-time 3D environment built with **Nitrode**.
+### ► Watch the Demo Video
+
+[![Neural Courier Demo](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID)
+
+*(Click the image to watch the 2-minute demonstration)*
+
+---
+
+### The Concept
+
+Neural Courier is a stealth strategy game that acts as a demonstration platform for a powerful, real-world hybrid AI architecture. It tackles a core challenge in modern robotics: how can we use the creative reasoning of Large Language Models (LLMs) for real-time navigation without succumbing to their unreliability for precise, low-level tasks?
+
+Our system proves that by elevating the LLM to the role of a **Strategic Planner** and combining it with a deterministic game engine for execution, we can build smarter, more robust autonomous agents.
+
+### Tech Stack & Architecture
+
+This project integrates a full stack of modern technologies to achieve real-time AI decision-making:
+
+* **Game Client (Nitrode/Godot):** Renders the 3D world, manages physics, and uses the built-in Navigation engine to execute movement commands.
+* **Backend Server (Node.js):** Acts as the communication bridge, using WebSockets for low-latency, bidirectional communication with the game client.
+* **AI Brain (Groq):** The Groq platform serves the Llama 3 8b model at incredible speed, allowing us to get strategic decisions in under 400ms, which is essential for a real-time loop.
+* **Voice Output (say.js/Vapi):** The AI's "thoughts" are converted to speech, providing a multimodal user experience.
+
+![Architecture Diagram](URL_to_an_architecture_diagram_image_if_you_make_one.png)
+
+### How to Run It
+
+1.  **Clone the repository.**
+2.  **Create a `.env` file** in the root directory with your Groq API key:
+    `GROQ_API_KEY="gsk_..."`
+3.  **Install server dependencies:**
+    `npm install`
+4.  **Run the brain server:**
+    `node brain_server.js`
+5.  **Run the game:**
+    Open the project in the Nitrode editor and press the Play button.
+
+---
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
