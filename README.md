@@ -27,7 +27,7 @@ This project integrates a full stack of modern technologies to achieve real-time
 * **AI Brain (Groq):** The Groq platform serves the Llama 3 8b model at incredible speed, allowing us to get strategic decisions in under 400ms, which is essential for a real-time loop.
 * **Voice Output (say.js/Vapi):** The AI's "thoughts" are converted to speech, providing a multimodal user experience.
 
-![Architecture Diagram](https://imgur.com/a/kBAOEG4)
+Architecture Diagram: https://imgur.com/a/kBAOEG4
 
 ### How to Run It
 
