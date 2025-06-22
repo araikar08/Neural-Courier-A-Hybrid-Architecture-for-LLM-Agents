@@ -6,7 +6,7 @@
 
 ### ► Watch the Demo Video
 
-[![Watch the Demo](https://i.imgur.com/Jy8gJjG.png)](https://youtu.be/RWS2lIp7c60)
+[![Watch the Demo](https://i.imgur.com/Jy8gJjG.png)](https://www.youtube.com/watch?v=G0fgDeE5XXY)
 
 *(Click the image to watch the 2-minute demonstration)*
 
